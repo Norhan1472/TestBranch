@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'FirstScreen.dart';
 import 'SplashScreen.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MyHomePage(),
+      home: FirstScreen(),
     );
   }
 }
